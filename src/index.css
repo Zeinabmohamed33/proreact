@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+.active{
+    padding: 10px 20px;
+    background-color: #1ABC9c;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.star::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    top: 50%;
+    transform: translate(30%) ;
+    background-color: white;
+    -webkit-transform: translate(30%) ;
+    -moz-transform: translate(30%) ;
+    -ms-transform: translate(30%) ;
+    -o-transform: translate(30%) ;
+}
+
+.star::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    top: 50%;
+    transform: translate(-130%) ;
+    background-color: white;
+    -webkit-transform: translate(-130%) ;
+    -moz-transform: translate(-130%) ;
+    -ms-transform: translate(-130%) ;
+    -o-transform: translate(-130%) ;
+}
+
+.star2::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    top: 50%;
+    transform: translate(30%) ;
+    background-color: #2C3E50;
+    -webkit-transform: translate(30%) ;
+    -moz-transform: translate(30%) ;
+    -ms-transform: translate(30%) ;
+    -o-transform: translate(30%) ;
+}
+
+.star2::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    top: 50%;
+    transform: translate(-130%) ;
+    background-color: #2C3E50;
+    -webkit-transform: translate(-130%) ;
+    -moz-transform: translate(-130%) ;
+    -ms-transform: translate(-130%) ;
+    -o-transform: translate(-130%) ;
+    background-color: ;
+}
